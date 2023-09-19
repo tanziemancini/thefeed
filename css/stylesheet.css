@@ -1,0 +1,85 @@
+
+
+body {
+    background-color: lightcyan;
+    font-family: 'Sora', sans-serif;
+    max-width: 1200px;
+    margin:auto;
+    font-size: 20px;
+}
+header:hover{
+    background-color: rgb(255, 175, 223);
+}
+header {
+    background-color: rgb(195, 243, 243);
+    color: green;
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
+    width: 300px;
+    position:fixed;
+    top: 50px;
+    left:25px;
+}
+
+nav:hover{
+    background-color: rgb(255, 175, 223);
+}
+nav {
+    background-color: rgb(195, 243, 243);
+    font-size: 15px;
+    color: green;
+    font-family: 'Sora', sans-serif;
+    width: 300px;
+    height: 300px;
+    position:fixed;
+    top:200px; 
+    left: 25px;
+}
+
+main {
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
+    width: 650px;
+    margin-left: 500px;
+    padding: 50px;
+    height: 300px;
+
+}
+section:hover{
+    background-color: rgb(255, 139, 205);
+}
+section {
+    background-color: rgb(195, 243, 243);
+    color: green;
+    border: 1px black;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Sora', sans-serif;
+}
+
+section img:hover{
+    background-color: rgb(255, 175, 223);
+}
+
+section img {
+    background-color: rgb(195, 243, 243);
+    color: green;
+    border: 1px black;
+    padding: 5px;
+    font-family: 'Sora', sans-serif;
+}
+footer:hover{
+    background-color: rgb(255, 175, 223);
+}
+footer {
+    background-color: rgb(195, 243, 243);
+    color: green;
+    font-family: 'Sora', sans-serif;
+    width: 300px;
+    position:fixed;
+    bottom: 50px;
+    left: 25px;
+}
