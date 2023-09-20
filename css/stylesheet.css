@@ -21,6 +21,11 @@ header {
     left:25px;
 }
 
+a {
+    text-decoration: none;
+    color:rgb(242, 196, 222);
+}
+
 nav:hover{
     background-color: rgb(255, 175, 223);
 }
@@ -35,6 +40,9 @@ nav {
     top:200px; 
     left: 25px;
 }
+h3 {
+    font-size: 20pt;
+}
 
 main {
     text-align: center;
@@ -47,6 +55,10 @@ main {
     height: 300px;
 
 }
+
+main p {
+    font-size: 50pt;
+}
 section:hover{
     background-color: rgb(255, 139, 205);
 }
@@ -58,6 +70,10 @@ section {
     text-align: center;
     padding: 15px;
     font-family: 'Sora', sans-serif;
+}
+
+section p{
+    font-size: 15pt;
 }
 
 section img:hover{
