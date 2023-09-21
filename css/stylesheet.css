@@ -21,6 +21,7 @@ header {
     left:25px;
 }
 
+
 a {
     text-decoration: none;
     color:rgb(242, 196, 222);
@@ -35,13 +36,16 @@ nav {
     color: green;
     font-family: 'Sora', sans-serif;
     width: 300px;
-    height: 300px;
     position:fixed;
-    top:200px; 
     left: 25px;
 }
-h3 {
-    font-size: 20pt;
+
+nav h1 {
+    top:400px; 
+}
+
+nav h2 {
+    top: 200px;
 }
 
 main {
@@ -57,8 +61,9 @@ main {
 }
 
 main p {
-    font-size: 50pt;
+    font-size: 40pt;
 }
+
 section:hover{
     background-color: rgb(255, 139, 205);
 }
@@ -74,6 +79,15 @@ section {
 
 section p{
     font-size: 15pt;
+}
+
+section p2 {
+    font-size: 10pt;
+    text-align: left;
+}
+
+Section p3 {
+    font-size: 50pt;
 }
 
 section img:hover{
