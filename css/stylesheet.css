@@ -11,12 +11,11 @@ header:hover{
     background-color: rgb(255, 175, 223);
 }
 header {
-    background-color: rgb(195, 243, 243);
     color: green;
     font-size: 20px;
     font-family: 'Sora', sans-serif;
     width: 300px;
-    position:fixed;
+    position:relative;
     top: 50px;
     left:25px;
 }
@@ -36,8 +35,9 @@ nav {
     color: green;
     font-family: 'Sora', sans-serif;
     width: 300px;
-    position:fixed;
-    left: 25px;
+    position: relative;
+    left: 5px;
+    top: 130px;
 }
 
 nav h1 {
@@ -46,6 +46,11 @@ nav h1 {
 
 nav h2 {
     top: 200px;
+}
+
+nav h3 {
+    background-color: rgb(195, 243, 243);
+    font-size: 30;
 }
 
 main {
@@ -57,12 +62,17 @@ main {
     margin-left: 500px;
     padding: 50px;
     height: 300px;
-
 }
 
 main p {
     font-size: 40pt;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    font-family: 'Sora', sans-serif;
 }
+
+
 
 section:hover{
     background-color: rgb(255, 139, 205);
@@ -109,7 +119,6 @@ footer {
     color: green;
     font-family: 'Sora', sans-serif;
     width: 300px;
-    position:fixed;
-    bottom: 50px;
+    bottom: 0px;
     left: 25px;
 }
