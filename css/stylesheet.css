@@ -15,7 +15,7 @@ header {
     font-size: 20px;
     font-family: 'Sora', sans-serif;
     width: 300px;
-    position:relative;
+    position:fixed;
     top: 50px;
     left:25px;
 }
@@ -35,9 +35,9 @@ nav {
     color: green;
     font-family: 'Sora', sans-serif;
     width: 300px;
-    position: relative;
-    left: 5px;
-    top: 130px;
+    position: fixed;
+    left: 50px;
+    top: 300px;
 }
 
 nav h1 {
@@ -49,6 +49,11 @@ nav h2 {
 }
 
 nav h3 {
+    background-color: rgb(195, 243, 243);
+    font-size: 30;
+}
+
+nav h4 {
     background-color: rgb(195, 243, 243);
     font-size: 30;
 }
@@ -65,6 +70,7 @@ main {
 }
 
 main p {
+    color: green;
     font-size: 40pt;
     margin-left: auto;
     margin-right: auto;
@@ -98,6 +104,7 @@ section p2 {
 
 Section p3 {
     font-size: 50pt;
+    text-align:left;
 }
 
 section img:hover{
@@ -111,6 +118,17 @@ section img {
     padding: 5px;
     font-family: 'Sora', sans-serif;
 }
+
+section a img {
+    background-color:rgb(195, 243, 243);
+    color: green;
+    border: 1px black;
+    padding: 30px;
+    font-family: 'Sora', sans-serif;
+    height:120%;
+    width:120%;
+}
+
 footer:hover{
     background-color: rgb(255, 175, 223);
 }
@@ -119,6 +137,7 @@ footer {
     color: green;
     font-family: 'Sora', sans-serif;
     width: 300px;
+    position: fixed;
     bottom: 0px;
     left: 25px;
 }
