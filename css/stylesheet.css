@@ -26,9 +26,6 @@ a {
     color:rgb(242, 196, 222);
 }
 
-nav:hover{
-    background-color: rgb(255, 175, 223);
-}
 nav {
     background-color: rgb(195, 243, 243);
     font-size: 15px;
@@ -59,7 +56,7 @@ nav h4 {
 }
 
 main {
-    text-align: center;
+
     color: green;
     font-size: 20px;
     font-family: 'Sora', sans-serif;
@@ -76,8 +73,8 @@ main p {
     margin-right: auto;
     top: 0px;
     font-family: 'Sora', sans-serif;
+    text-align: center;
 }
-
 
 
 section:hover{
@@ -88,9 +85,9 @@ section {
     color: green;
     border: 1px black;
     margin-top: 25px;
-    text-align: center;
     padding: 15px;
     font-family: 'Sora', sans-serif;
+
 }
 
 section p{
@@ -103,7 +100,7 @@ section p2 {
 }
 
 Section p3 {
-    font-size: 50pt;
+    font-size: 20pt;
     text-align:left;
 }
 
@@ -117,16 +114,19 @@ section img {
     border: 1px black;
     padding: 5px;
     font-family: 'Sora', sans-serif;
+    text-align: center;
 }
 
-section a img {
-    background-color:rgb(195, 243, 243);
-    color: green;
-    border: 1px black;
-    padding: 30px;
-    font-family: 'Sora', sans-serif;
-    height:120%;
-    width:120%;
+.splash {
+    background-color: none;
+    scale: 400%;
+    margin-top: 550px;
+    margin-left: -300px;
+    text-align: center;
+}
+
+.splash:hover {
+    background-color: rgb(195, 243, 243);
 }
 
 footer:hover{
